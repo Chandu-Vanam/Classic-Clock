@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getTime()">
+    <div class="container">
+        <div class="clock">
+            <div class="circle" id="hr-top-circle">
+                <div class="clock-hand" id="hr-hand"></div>
+                <div class="middle-circle"></div>
+            </div>
+            <div class="numbers">
+                <p class="top-number">0</p>
+                <p class="right-number">3</p>
+                <p class="down-number">6</p>
+                <p class="left-number">9</p>
+            </div>
+        </div>
+        <div class="clock">
+            <div class="circle" id="mi-top-circle">
+                <div class="clock-hand" id="mi-hand"></div>
+                <div class="middle-circle"></div>
+            </div>
+            <div class="numbers">
+                <p class="top-number">0</p>
+                <p class="right-number">15</p>
+                <p class="down-number">30</p>
+                <p class="left-number">45</p>
+            </div>
+        </div>
+        <div class="clock">
+            <div class="circle" id="sec-top-circle">
+                <div class="clock-hand" id="sec-hand"></div>
+                <div class="middle-circle"></div>
+            </div>
+            <div class="numbers">
+                <p class="top-number">0</p>
+                <p class="right-number">15</p>
+                <p class="down-number">30</p>
+                <p class="left-number">45</p>
+            </div>
+        </div>
+    </div>
+    <div class="digital-time">Digital Time: <span id="dgt"></span></div>
+    <script src="script.js"></script>
+</body>
+</html>
