@@ -10,8 +10,7 @@ const getTime = () => {
         let hrValue = hourValue * 30; 
         let minValue = minuteValue * 6; 
         let secValue = secondValue * 6;
-
-        console.log(hrValue)
+        
         document.getElementById('hr-top-circle').style.transform = `rotate(${hrValue}deg)`;
         document.getElementById('mi-top-circle').style.transform = `rotate(${minValue}deg)`;
         document.getElementById('sec-top-circle').style.transform = `rotate(${secValue}deg)`;
